@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSI Model</title>
+    <link rel="stylesheet" href="https://unpkg.com/carbon-components/css/carbon-components.min.css">
+    <script src="https://unpkg.com/carbon-components/scripts/carbon-components.min.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bx--header">
+        <div class="bx--header__name">
+            <a href="#" class="bx--header__name--prefix">Computer Networks</a>
+        </div>
+        <nav class="bx--header__nav">
+            <ul class="bx--header__menu-bar">
+                <li class="bx--header__menu-item"><a href="index.html" class="bx--header__menu-item">Home</a></li>
+                <li class="bx--header__menu-item"><a href="osi-model.html" class="bx--header__menu-item">OSI Model</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="bx--content">
+        <section id="osi-model" class="bx--section">
+            <h2 class="bx--type-expressive-heading-04">OSI Model</h2>
+            <p class="bx--type-body-long-01">The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and implement network protocols in seven layers.</p>
+            <div class="bx--grid">
+                <div class="bx--row">
+                    <div class="bx--col">
+                        <h3 class="bx--type-expressive-heading-05">OSI Model Structure</h3>
+                        <ul class="bx--list--ordered">
+                            <li><a href="application-layer.html">Layer 7: Application Layer</a></li>
+                            <li><a href="presentation-layer.html">Layer 6: Presentation Layer</a></li>
+                            <li><a href="session-layer.html">Layer 5: Session Layer</a></li>
+                            <li><a href="transport-layer.html">Layer 4: Transport Layer</a></li>
+                            <li><a href="network-layer.html">Layer 3: Network Layer</a></li>
+                            <li><a href="data-link-layer.html">Layer 2: Data Link Layer</a></li>
+                            <li><a href="physical-layer.html">Layer 1: Physical Layer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <ol class="bx--list--ordered">
+                <li>
+                    <strong>Physical Layer:</strong> This layer is responsible for the physical connection between devices. It transmits raw bit streams over a physical medium, such as cables or radio waves. It includes hardware components like cables, switches, and network interface cards.
+                    <a href="physical-layer.html">Read more</a>
+                    <img src="images/physical-layer.png" alt="Physical Layer Diagram" style="width:100%;max-width:600px;">
+                </li>
+                <li>
+                    <strong>Data Link Layer:</strong> This layer provides node-to-node data transfer and handles error detection and correction. It ensures that data is transferred reliably over the physical layer. It includes protocols like Ethernet and PPP, and devices like bridges and switches.
+                    <a href="data-link-layer.html">Read more</a>
+                    <img src="images/data-link-layer.png" alt="Data Link Layer Diagram" style="width:100%;max-width:600px;">
+                </li>
+                <li>
+                    <strong>Network Layer:</strong> This layer is responsible for routing data packets between devices across different networks. It determines the best path for data to travel from the source to the destination. It includes protocols like IP and ICMP, and devices like routers.
+                    <a href="network-layer.html">Read more</a>
+                    <img src="images/network-layer.png" alt="Network Layer Diagram" style="width:100%;max-width:600px;">
+                </li>
+                <li>
+                    <strong>Transport Layer:</strong> This layer ensures complete data transfer with error recovery and flow control. It provides reliable data transfer services to the upper layers. It includes protocols like TCP and UDP, which manage data transmission between devices.
+                    <a href="transport-layer.html">Read more</a>
+                    <img src="images/transport-layer.png" alt="Transport Layer Diagram" style="width:100%;max-width:600px;">
+                </li>
+                <li>
+                    <strong>Session Layer:</strong> This layer manages sessions and controls dialogues between computers. It establishes, maintains, and terminates connections between applications. It includes protocols like NetBIOS and RPC, which manage session establishment and termination.
+                    <a href="session-layer.html">Read more</a>
+                    <img src="images/session-layer.png" alt="Session Layer Diagram" style="width:100%;max-width:600px;">
+                </li>
+                <li>
+                    <strong>Presentation Layer:</strong> This layer translates data formats and encrypts/decrypts data. It ensures that data is presented in a readable format for the application layer. It includes protocols like SSL/TLS and JPEG, which handle data encoding and encryption.
+                    <a href="presentation-layer.html">Read more</a>
+                    <img src="images/presentation-layer.png" alt="Presentation Layer Diagram" style="width:100%;max-width:600px;">
+                </li>
+                <li>
+                    <strong>Application Layer:</strong> This layer provides network services to end-users and applications. It includes protocols such as HTTP, FTP, and SMTP that enable communication between software applications. It is the closest layer to the end-user and interacts directly with software applications.
+                    <a href="application-layer.html">Read more</a>
+                    <img src="images/application-layer.png" alt="Application Layer Diagram" style="width:100%;max-width:600px;">
+                </li>
+            </ol>
+            <img src="osi-model.png" alt="OSI Model Diagram" style="width:100%;max-width:600px;">
+        </section>
+    </main>
+    <footer class="bx--footer">
+        <p class="bx--type-body-long-01">&copy;  Computer Networks</p>
+    </footer>
+</body>
+</html>
